@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+
+section {
+    width: 80%;
+    height: 50px;
+    background-size: cover;
+    background-image: center;
+    background-repeat: no-repeat;
+}
+
+section nav {
+    height: 145px;
+    width: 126%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(54, 75, 193);
+    background: rgb(0, 0, 0);
+    position: relative;
+    left: 0;
+    z-index: 100;
+    border-radius: 10px;
+    font: white;
+    
+
+
+}
+
+section nav.logo img {
+    width: 500%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+section nav li {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 10px;
+    ;
+
+}
+
+section nav li a {
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+
+section nav li a:hover {
+    color: yellowgreen;
+
+}
+
+.social-icon i:hover {
+    color: yellowgreen;
+    transform: scale(1.1);
+}
+
+section.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 20%;
+}
+
+section .main h1 {
+    position: relative;
+    font-size: 45px;
+    top: 90px;
+    left: 25px;
+    padding-left: 10px;
+
+}
+
+section .main h1 span {
+    color: #16222f;
+    margin-left: 15%;
+    font-style: inherit;
+}
+
+section .main p {
+    width: 650px;
+    text-align: justify;
+    line-height: 30px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+    font-size: 20px;
+    max-width: 580px;
+    color: black ;
+}
+
+section .main h3 {
+    top: 100px;
+    position: relative;
+}
+
+section .main .main-tag .main-btn {
+    background: #263238;
+    padding: 10px 10px;
+    position: relative;
+    top: 140px;
+    left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section .main .main-tag {
+    width: 780px;
+    position: relative;
+    color: #6C63A8;
+    left: 20px;
+    bottom: 50px;
+}
+
+section .main-img {
+    position: relative;
+    left: 200px;
+    margin-left: 49%;
+    bottom: 420px;
+    size: 500px;
+}
+
+section .main .main-tag h3 {
+    top: 200%;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+
+}
+
+.services .services-box {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50%;
+
+}
+
+.services .services-box .services-card {
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0 0 10px rgb(42, 49, 90);
+    padding: 15px 10px;
+}
+
+.services .services-box .services-card i {
+    color: #263238;
+    font-size: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.about .about-image img {
+    width: 800px;
+}
+
+.about .about-tag p {
+    line-height: 22px;
+    width: 650px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about .about-tag .about-btn {
+    padding: 10px 20px;
+    background-color: #6C63A8;
+    text-decoration: none;
+    color: beige;
+    position: relative;
+    top: 50px;
+}
+
+/* featured book */
+
+.featured-books {
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.featured-books h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+
+}
+
+.featured-books .featured-books-box {
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+    box-shadow: #70b7ff;
+}
+
+.featured-books .featured-books-box .featured-books-card {
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid yellowgreen;
+    margin: auto 20px;
+}
+
+.featured-books .featured-books-box .featured-books-card:hover {
+    box-shadow: 0 o 50px skyblue;
+
+}
+
+.featured-books .featured-books-box .featured-books-card:hover .featured-books-img img {
+    transform: scale(1.1);
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-books-img img {
+    width: 150px;
+    height: 230px;
+    transition: 0.4s;
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-books-tag h2 {
+    margin: 12px;
+
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-books-tag .writer {
+    color: goldenrod;
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-books-tag .categories {
+    color: #6C63A8;
+    margin-top: 10px;
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-books-tag .book-price {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.featured-books .featured-books-box .featured-books-card .featured-books-tag del {
+    font-weight: 100;
+    padding: 0 15px;
+}
+
+
+.featured-books .featured-books-box .featured-books-card .featured-books-tag .f-btn {
+    padding: 10px 40px;
+    border: 2px dashed #263238;
+    text-decoration: none;
+    color: #6C63A8;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: insert 0 0 8px black;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #70b7ff;
+    background-size: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-button:hover {
+    background-color: rgb(210, 214, 201);
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgb(237, 241, 241);
+    border-radius: 5px;
+    border: 1px solid rgb(236, 136, 205);
+}
+
+/* arrivals */
+
+.arrival {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+}
+
+.arrival h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.arrival .arrival-box {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 0;
+
+
+}
+
+.arrival .arrival-box .arrival-card {
+    width: 250px;
+    height: 340px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid palevioletred;
+    margin: auto 20px;
+}
+
+.arrival .arrival-box .arrival-card .arrival-img {
+    width: 150px;
+    height: 220px;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px paleturquoise;
+    overflow: hidden;
+}
+
+
+.arrival .arrival-box .arrival-card .arrival-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.arrival .arrival-box .arrival-card .arrival-tag p {
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.arrival .arrival-box .arrival-card .arrival-tag .arrival-icons {
+    color: plum;
+    margin-bottom: 18px;
+}
+
+.arrival .arrival-box .arrival-card:hover .arrival-img img {
+    transform: scale(1.1);
+}
+
+/* reviews    */
+.review {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+}
+
+.review h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 55px;
+
+
+}
+
+.review .review-box {
+    width: 95%;
+    margin: 15px auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.review .review-box .review-card {
+    width: 400px;
+    height: 320px;
+    box-shadow: 0 0 0 rgb(208, 99, 136);
+    padding: 15px;
+    margin: 0 12px;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+
+}
+
+
+.review .review-box .review-card .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.review .review-box .review-card .profile h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.review .review-box .review-card .stars {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    margin-top: 18px;
+    width: max-content;
+}
+
+.review .review-box .review-card .stars i {
+    color: gold;
+    font-size: 15px;
+    margin-right: 0;
+    text-align: left;
+}
+
+.review .review-box .review-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 50vh;
+    background-image: url(banner\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30%;
+}
+
+.banner-btn {
+    padding: 8px 12px;
+    background-color: #163e53;
+    color:white;
+    position: relative;
+    top: 92%;
+    left: 0;
+    text-decoration: none;
+}
+
+/* blog */
+
+.blog {
+    width: 100%;
+    height: auto;
+    margin: 25px o;
+
+}
+
+.blog h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+.blog .blog-box {
+    width: 95%;
+    margin: 0 auto;
+    gap: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.blog .blog-box .blog-card {
+    margin: 0 auto;
+    width: 450px;
+    height: auto;
+    box-shadow: 0 0 8px burlywood;
+
+
+}
+
+.blog .blog-box .blog-card .blog-img {
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.blog .blog-box .blog-card .blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.blog .blog-box .blog-card:hover .blog-img img {
+    transform: scale(1.1);
+
+}
+
+.blog .blog-box .blog-card .blog-tag {
+    padding: 20px;
+}
+
+.blog .blog-box .blog-card .blog-tag h2 {
+    color: cornsilk;
+}
+
+.blog .blog-box .blog-card .blog-tag p {
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.blog .blog-box .blog-card .blog-tag .blog-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #263238;
+    cursor: pointer;
+
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    background-color: #c2deee;
+    margin: 30px;
+}
+
+.footer .footer-main {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.footer .footer-main .tag {
+    flex: 1;
+    margin: 10px 0;
+}
+
+.footer .footer-main .tag a {
+    display: block;
+    margin: 10px 0;
+}
+
+footer .footer-main .tag img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+footer .footer-main .tag p {
+    width: 250px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+footer .footer-main .tag h1 {
+    font-size: 25px;
+    margin: 25px 0;
+    color: #000;
+}
+
+footer .footer-main .tag a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+footer .footer-main .tag i {
+    margin-right: 10px;
+
+}
+
+footer .footer-main .tag .search-bar {
+    width: 230px;
+    height: 30px;
+    background-color: #c4c2cc;
+    border-radius: 25px;
+}
+
+footer .footer-main .tag .search-bar input {
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+
+footer .footer-main .tag .search-bar button {
+    padding: 7px;
+    background-color: #4d7083;
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+footer .end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: black;
+
+}
+
+footer .end span {
+    color: #a3c9dc;
+    font-weight: 600px;
+}
